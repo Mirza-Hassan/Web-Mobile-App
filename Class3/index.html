@@ -1,1 +1,100 @@
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <!-- horizontal rule -->
+    <hr />
 
+    <!-- form -->
+    <form>
+      <!-- type email -->
+      <label>Email:</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <!-- line break -->
+      <br />
+
+      <!-- type text -->
+      <label>First Name:</label>
+      <input
+        type="text"
+        name="firstname"
+        placeholder="Enter your first name"
+        required
+      />
+      <br />
+      <label>Last Name:</label>
+      <input
+        type="text"
+        name="email"
+        placeholder="Enter your last name"
+        required
+      />
+      <br />
+
+      <!-- type date -->
+      <label>Date of Birth:</label>
+      <input type="date" name="dob" placeholder="Enter your date of birth" />
+      <br />
+
+      <!-- type radio -->
+      <input type="radio" name="male" value="male" />
+      <label>Male</label>
+      <input type="radio" name="female" value="female" />
+      <label> Female </label>
+      <br />
+
+      <!-- type checkbox -->
+      <label>Choose your favorite food:</label>
+      <input type="checkbox" name="biryani" value="biryani" />
+      <label>Biryani</label>
+      <input type="checkbox" name="pilau" value="pilau" />
+      <label> Pilau </label>
+      <input type="checkbox" name="burger" value="burger" />
+      <label> Burger </label>
+      <br />
+
+      <!-- type reset -->
+      <input type="reset" value="reset" />
+      <br />
+
+      <!-- type submit -->
+      <!-- <input type="submit" value="submit" /> -->
+
+      <!-- type button -->
+      <!-- <input type="button" value="submit" onClick="alert('submitted')" /> -->
+      <br />
+
+      <!-- dropdown -->
+      <label>Country:</label>
+      <select name="country">
+        <option value="pakistan">Pakistan</option>
+        <option value="india">India</option>
+        <option value="bangladesh">Bangladesh</option>
+        <option value="srilanka">Sri Lanka</option>
+      </select>
+      <br />
+
+      <!-- textarea -->
+      <label>Complaint:</label>
+      <textarea
+        name="message"
+        rows="4"
+        cols="50"
+        placeholder="Enter your complaint"
+      >
+      </textarea>
+      <br />
+
+      <!-- buttons -->
+      <button>submit</button>
+    </form>
+  </body>
+</html>
